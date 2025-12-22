@@ -8,3 +8,4 @@
 3. Shell
 4. ssh
 5. git
+6. thrift
