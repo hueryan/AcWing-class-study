@@ -3,10 +3,14 @@
 ## Linux
 
 0. Linux目录信息及Vim&tmux
+   - tmux&Vim配置文件
 1. 常用文件管理命令
 2. tmux&vim
 3. Shell
+   - 3Shell内容
 4. ssh
 5. git
 6. thrift
 7. 管道、环境变量与常用命令
+8. 租云服务器及配docker环境
+   - 8租服务器流程
