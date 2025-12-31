@@ -21,7 +21,6 @@
    - 1习题
 2. 配置docker
    - 2Django镜像
-
 3. 菜单界面
-
 4. 游戏界面
+5. 部署nginx与对接acapp
