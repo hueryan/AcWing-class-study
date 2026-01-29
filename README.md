@@ -41,3 +41,5 @@
    1.2.3. 配置django_channels
    
    4. 编写同步函数（blink,coldtime）
+   
+8. 实现聊天系统
