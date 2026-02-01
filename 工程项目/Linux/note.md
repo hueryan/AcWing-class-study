@@ -1,0 +1,1 @@
+[thrift-note](https://www.acwing.com/activity/content/code/content/2241575/) 
