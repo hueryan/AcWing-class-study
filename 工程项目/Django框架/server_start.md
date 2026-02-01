@@ -5,6 +5,7 @@ sudo /etc/init.d/nginx start  # 第5讲
 sudo redis-server /etc/redis/redis.conf  # 第7讲
 uwsgi --ini ~/app/scripts/uwsgi.ini  # 第5讲
 daphne -b 0.0.0.0 -p 5015 app.asgi:application  # 第七讲
+~/app/match_system/src/main.py  # 第九讲
 ```
 
 ```sh
