@@ -49,3 +49,5 @@
 
    1. thrift服务
    1. 收尾
+   
+10. Rest Framework与JWT身份验证
