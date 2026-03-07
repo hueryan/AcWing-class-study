@@ -1,0 +1,66 @@
+.user-card {
+  width: 200px;
+  height: 67.69px;
+  background-color: #D9EAF7;
+  margin: 100px auto;
+  padding: 5px 6px 7px 7px;
+  /* 修改box使得增加padding不会变大 */
+  box-sizing: border-box;
+}
+
+.user-card-head {
+  font-size: 12px;
+  color: #6A737C;
+  margin: 1px 0 4px 0;
+}
+
+
+.user-card-body-photo img {
+  width: 32px;
+  height: 32px;
+  border-radius: 3px;
+}
+
+/* 改为浮动 */
+.user-card-body-photo {
+  float: left;
+}
+
+.user-card-body-info {
+  float: left;
+  margin-left: 8px;
+}
+
+.user-card-body-info-username {
+  height: 14px;
+  /* 增加行高使得居中 */
+  line-height: 14px;
+  margin-bottom: 4px;
+}
+
+.user-card-body-info-username>a {
+  font-size: 13px;
+  color: #0074CC;
+  /* 去点 a 的下划线 */
+  text-decoration: none;
+}
+
+.user-card-body-info-reputation {
+  font-size: 12px;
+  color: #838C95;
+  height: 14px;
+  /* 增加行高使得居中 */
+  line-height: 14px;
+}
+
+.user-card-body-info-reputation-item {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px 0 2px;
+
+  /* 偏移 */
+  position: relative;
+  top: -1px;
+}

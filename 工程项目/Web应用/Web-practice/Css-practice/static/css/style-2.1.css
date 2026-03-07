@@ -1,0 +1,30 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+
+  margin-bottom: 10px;
+}
+
+p {
+  width: 50px;
+  height: 70px;
+  background-color: lightgreen;
+}
+
+#mydiv {
+  background-color: lightcoral;
+}
+
+#myp {
+  background-color: lightsalmon;
+}
+
+.red-tag {
+  background-color: lightcoral;
+}
+
+.big-tag {
+  width: 150px;
+  height: 120px;
+}

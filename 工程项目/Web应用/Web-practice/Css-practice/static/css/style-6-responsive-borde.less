@@ -1,0 +1,40 @@
+.container {
+  background-color: lightgray;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  height: 100vh;
+}
+
+.col {
+  float: left;
+  height: 100px;
+  background-color: lightsalmon;
+  border: 1px solid black;
+  box-sizing: border-box;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+// 递归生成 1 到 @n 列的栅格类
+.generate-grid(@n, @i: 1, @prefix) when (@i <=@n) {
+  .@{prefix}@{i} {
+    width: (@i * 100% / @n);
+  }
+
+  .generate-grid(@n, (@i + 1), @prefix);
+}
+
+// 主 mixin：接受类名前缀和媒体查询条件，生成响应式栅格
+.make-grid(@prefix, @media-query) {
+  @media (@media-query) {
+    .generate-grid(12, 1, @prefix); // 默认生成 12 列，可按需修改
+  }
+}
+
+/* 大于等于768 */
+.make-grid(col-md-, ~"min-width: 768px");
+/* 小于等于767 */
+.make-grid(col-sm-, ~"max-width: 767px");
