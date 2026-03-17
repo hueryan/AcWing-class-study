@@ -1,0 +1,14 @@
+textarea {
+  width: 500px;
+  height: 300px;
+  background-color: lightblue;
+  font-size: 25px;
+}
+
+pre {
+  width: 500px;
+  height: 300px;
+  background-color: lightgrey;
+  font-size: 25px;
+
+}
